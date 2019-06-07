@@ -1,6 +1,40 @@
 'use strict';
 
 
+/** forEach Syntax:   */
+
+    arr.forEach(function callback (currentValue, index, array) {
+        // your iterator
+    }[thisArg]);
+
+//  PARAMETERS
+
+//  Callback - function to execute for each element, taking in three arguments:
+//      currentValue - the value of the current element being processed in the array.
+//      index - the index of the current element being processed in the array.
+//      array - the array that forEach() is being applied to.
+
+
+
+/** converting a for loop to forEach */
+    const items = ['item1', 'item2', 'item3'];
+    const copy = [];
+
+
+    // before
+    for (let i=0; i < items.length; i++) {
+        copy.push(items[i]);
+    }
+
+    // after
+    items.forEach(item => {
+        copy.push(item);
+    });
+
+
+
+
+
 /** Use the forEach method to create a new Array of the capitalized version fo this Array:    */
     const fruits = ['apple', 'pear', 'cherry'];
 
