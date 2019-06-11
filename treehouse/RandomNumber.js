@@ -15,12 +15,12 @@
     HINT: instead of generating a num between 1 - z, we need generate a num from x - z.
 */
 
-let input1 = prompt("Choose a random number: "); // store user input in a variable
-let bottomNumber = parseInt(input1);
+let input1 = prompt("Choose a random number: ");  // store user input in a variable
+let bottomNumber = parseInt(input1);  // convert string input into a true integer
 
+let input2 = prompt("Choose another random number: ");
+let topNumber = parseInt(input2);
 
-let input = prompt("Choose another random number: ");
-let topNumber = parseInt(input);    // convert string input into a true integer
 let randomNumber = Math.floor(Math.random() * (topNumber - bottomNumber + 1)) + bottomNumber;
 // this creates the range for the randomly generated number
 
