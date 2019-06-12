@@ -1,7 +1,10 @@
 'use strict';
 
 /**
- Create a program that uses conditional statements to react to user input:
+ This program that uses conditional statements to react to user input--
+
+ Create a Random Number Guessing Game that prompts the user to guess a randomly
+ generated number.
  */
 
 let randomNumber = Math.floor(Math.random() *  6) +1;
@@ -13,5 +16,5 @@ if (parseInt(guess)=== randomNumber) {
     document.write("<p>You guessed the number!</p>")
 
 } else {
-    document.write("Sorry, the number was " + randomNumber + "</p>");
+    document.write("<p>Sorry, the number was " + randomNumber + "</p>");
 }
