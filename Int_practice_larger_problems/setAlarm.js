@@ -37,7 +37,7 @@ console.log(setAlarm());
 
 
 
-// Refactored:
+// 1st Refactor:
 
 function setAlarm2(isEmployed, onVacation) {
     if (isEmployed === true && onVacation === false) {
@@ -47,3 +47,8 @@ function setAlarm2(isEmployed, onVacation) {
     }
 }
 console.log(setAlarm2());
+
+
+// 2nd Refactor:
+
+const setAlarm3 = (employed, vacation) => employed && !vacation;
