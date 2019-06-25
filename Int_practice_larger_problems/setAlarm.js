@@ -5,8 +5,8 @@
  CODEWARS 6/25/19
 
  Write a function named setAlarm which receives two parameters.
- The first parameter, employed, is true whenever you are employed and
- the second parameter, vacation, is true whenever you are on vacation.
+ The first parameter, isEmployed, is true whenever you are employed and
+ the second parameter, onVacation, is true whenever you are on vacation.
 
 
  The function should return true if you are employed and not on vacation
