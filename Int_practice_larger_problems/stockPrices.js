@@ -27,7 +27,7 @@ function printPrices(prices) {
             // build the dashes here
 
         }
-        console.log(pricesArray.join(\'-'\));
-        // console.log(`${i}: dashes here`);
+        // console.log(pricesArray.join(\'-'\));
+        console.log(`${i}: dashes here`);
     }
 }
